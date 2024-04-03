@@ -1,0 +1,16 @@
+# COMMENTS
+# When we increase the range we quantize at, the number of values remaining to represent the image
+# decreases so the index map(data matrix) appears darker and more edges appear in the reconstructed
+# image after quantization.
+# Example: original test image has 67677 colors and after quantizing using a range of 10 the number of
+# colors is only 1170, and if we increase the range to 20, the number becomes only 263, and at lastly
+# if we increase the range to 30, the number of colors becomes 97.
+
+# Quantization also effect on quality & compression
+# Higher quantization => Higher Compression & Lower Quality.
+# Lower quantization => Lower Compression & Higher Quality.
+
+
+#Each result is named with Test_img_with and  of format R: Range , N: range value
+# Output of task 1 is the first row of images and output of task 2 is the second row of
+# images.

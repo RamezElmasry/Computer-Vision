@@ -1,0 +1,13 @@
+If the contrast is too low, it is impossible to distinguish between two objects, and they 
+are seen as a single object, and for that histogram equalization is a widely used 
+contrast-enhancement technique because of its high eﬃciency and simplicity It modifies 
+the dynamic range and contrast of an image by altering that image such that its 
+intensity histogram has the desired shape.
+
+Knowing that we can see that in some of the test images, segmenting the equalized counter
+part of an image into two classes (Background & Foreground) yeilds better results than 
+directly segmenting the original image, as shown in 3,4. While in 1,2 segmenting the 
+original image gives better results than their equalized counter parts. However in 5,
+despite the equalized enhanced the contrast a bit, it wasnt enough to give better
+segmentation than the segmentation from the original due to the large area of close
+intensity values in the background. 
